@@ -1,0 +1,87 @@
+h1{
+    color: rgb(47, 49, 29);
+    background-color: rgb(226, 226, 174);
+    text-transform: initial;
+    padding-top: 20px; ;
+    padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:normal;
+    text-align: center;
+}
+h3{
+background-color: rgb(132, 167, 155);
+padding-top: 10px;
+padding-bottom: 10px;
+font-weight: bolder;
+color: azure;
+padding-left: 20px;
+
+}
+h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    color: azure;
+    padding-left: 20px;
+    
+    }
+
+p{font-style: italic;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.destacados{color: rgb(183, 0, 255);
+font-weight: bold;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nogusta{color: rgb(245, 60, 4);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+#gustos{
+background-color: rgb(85, 102, 102);
+width: 250px;
+height: 200;
+padding: 20px;
+color: beige;
+margin-bottom: 20px;
+margin-left: 30px;
+padding-right: 30px;
+margin-top: 10px;
+}
+
+#datos{
+    background-color: rgb(55, 127, 160);
+    width: 250px;
+    height: 200;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 5px solid rgb(122, 205, 243);
+    cursor: pointer;
+    }
+#datos:hover{
+    background-color: rgb(69, 27, 122);
+}
+
+#bloque{
+    background-color: bisque;
+    width: 250px;
+    margin-left: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+text-align: left;
+color: rgb(168, 151, 151);
+font-size: 20px;
+
+}    
+
+#gustos h4{
+    text-transform: uppercase;
+    text-align: center;
+}

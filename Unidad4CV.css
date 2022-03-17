@@ -1,13 +1,48 @@
-h1{
-    color: rgb(47, 49, 29);
-    background-color: rgb(226, 226, 174);
-    text-transform: initial;
-    padding-top: 20px; ;
-    padding-bottom: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style:normal;
+/*
+*.tipos
+font-family: 'Open Sans', sans-serif;
+*/
+
+
+
+.Nombre{
+    background-color:  rgb(100,184,177);
+    width: 600px;
+    height: 100px; 
+    color: white;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    padding-top: 50px;
+    border-radius: 59px 59px 59px 59px;
+-webkit-border-radius: 59px 59px 59px 59px;
+-moz-border-radius: 59px 59px 59px 59px;
+margin-bottom: 20px;
+
+    
+    }
+
+    .titulos{
+
+        background-color:  rgb(129, 182, 177);  
+        margin-top: 30px;
+        width: 120px;
+        height: 75px;
+        padding:20px;
+        border-radius: 142px 16px 140px 141px;
+    -webkit-border-radius: 142px 16px 140px 141px;
+    -moz-border-radius: 142px 16px 140px 141px;
 }
+    
+    .titulos p{
+        margin-top: 18px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        color: azure;
+        text-align: center;
+
+    }
+
 h3{
 background-color: rgb(132, 167, 155);
 padding-top: 10px;
@@ -25,7 +60,7 @@ h4{
     padding-left: 20px;
     
     }
-
+    
 p{font-style: italic;
     font-weight: bold;
     margin-left: 10px;
@@ -42,15 +77,18 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     }
 
 #gustos{
-background-color: rgb(85, 102, 102);
+    background-color: rgb(83, 117, 114);
 width: 250px;
 height: 200;
 padding: 20px;
-color: beige;
 margin-bottom: 20px;
 margin-left: 30px;
 padding-right: 30px;
 margin-top: 10px;
+box-shadow: 10px 10px 23px 1px rgba(0,0,0,0.85);
+-webkit-box-shadow: 10px 10px 23px 1px rgba(0,0,0,0.85);
+-moz-box-shadow: 10px 10px 23px 1px rgba(0,0,0,0.85);
+
 }
 
 #datos{
@@ -68,12 +106,17 @@ margin-top: 10px;
 }
 
 #bloque{
-    background-color: bisque;
-    width: 250px;
+    background: #c3c8c0;
+background: linear-gradient(90deg,#c3c8c0 0%, #e5f6e5 80%);
+background: -webkit-linear-gradient(90deg,#c3c8c0 0%, #e5f6e5 80%);
+background: -moz-linear-gradient(90deg,#c3c8c0 0%, #e5f6e5 80%);
+    width: 400px;
+    height: 300px;
     margin-left: 50px;
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+
 
 text-align: left;
 color: rgb(168, 151, 151);
@@ -85,3 +128,4 @@ font-size: 20px;
     text-transform: uppercase;
     text-align: center;
 }
+

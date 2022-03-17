@@ -5,21 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Curso</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet"> 
+
     <link rel="stylesheet" href="Unidad4CV.css">
 </head>
 <body>
-    <h1>Jimena María Esteves Ivanissevich</h1>
+   
+    <div class="Nombre">
+        Jimena María Esteves Ivanissevich
+    </div>
 
     <img src="Foto.jpg" alt="Imagen de portada">
-    <h3>Edad</h3>
+
+    <div class="titulos">
+        <p>  Edad</p>
+
+    </div>
+
     <p>45 años</p>
 
-    <h3>Domicilio</h3>
+    <div class="titulos">
+        <p>   Dirección</p>
+
+    </div>
+
     <P>Alvear 1466 - Puerto Madryn - Chubut - Argentina</P>
     
     <div id="gustos"> 
 
     <h4>¿Qué series te gustan?</h4>
+
+
     <ol>
         <li>La casa de papel</li>
         <li>Dark</li>
@@ -37,13 +58,18 @@
     </ul>
 </div>
 
+<div class="titulos">
 
-    <h3>Perfil</h3>
+    <p>Perfil</p>
+</div>
+
     <P>Me gusta salir a <spam class="destacados"> correr </spam> </P>
     <p>Disfuto mucho mi <spam class="destacados">trabajo</spam>. Si queres conocer algo de lo que hago hace click <a href="https://www.jeobjetos.com.ar/" target="_blank">acá </a> .</p>
     <P>No me gusta <spam class="nogusta">cocinar</spam></P>
 
-    <h3>Si querés contactarme podes completar el siguiente formulario</h3>
+    <div class="titulos">
+    <p>contacto</p>
+</div>
 
    <form action="" method="">
 <p>
@@ -61,6 +87,9 @@
 </div>
 
 <label for="Sexo">Sexo</label>
+<div id="datos">
+
+</div>
 <ul>
     <li>
         <input type="radio" name="Sexo" value="hombre">
@@ -92,6 +121,7 @@
 <p>
 
     <div id="bloque"> 
+
     <label for="Comentarios:">Comentarios:</label>
 
     <textarea name="Comentarios"></textarea>
@@ -103,6 +133,5 @@
     <input type="Reset" value="Borrar">
 </p>
    </form>
-
 </body>
 </html>
